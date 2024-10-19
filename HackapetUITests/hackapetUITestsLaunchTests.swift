@@ -1,13 +1,13 @@
 //
-//  hackapetUITestsLaunchTests.swift
-//  hackapetUITests
+//  HackapetUITestsLaunchTests.swift
+//  HackapetUITests
 //
 //  Created by Felipe Gadea Llopis on 18/10/24.
 //
 
 import XCTest
 
-final class hackapetUITestsLaunchTests: XCTestCase {
+final class HackapetUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

@@ -24,25 +24,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		045C12692CC2530400646CC7 /* hackapet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackapet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		045C12792CC2530600646CC7 /* hackapetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackapetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		045C12832CC2530600646CC7 /* hackapetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackapetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		045C12692CC2530400646CC7 /* Hackapet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hackapet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045C12792CC2530600646CC7 /* HackapetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackapetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		045C12832CC2530600646CC7 /* HackapetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackapetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		045C126B2CC2530400646CC7 /* hackapet */ = {
+		045C127C2CC2530600646CC7 /* HackapetTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = hackapet;
+			path = HackapetTests;
 			sourceTree = "<group>";
 		};
-		045C127C2CC2530600646CC7 /* hackapetTests */ = {
+		045C12862CC2530600646CC7 /* HackapetUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = hackapetTests;
+			path = HackapetUITests;
 			sourceTree = "<group>";
 		};
-		045C12862CC2530600646CC7 /* hackapetUITests */ = {
+		556BC61E2CC3CB11003D9F25 /* Hackapet */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = hackapetUITests;
+			path = Hackapet;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		045C12602CC2530400646CC7 = {
 			isa = PBXGroup;
 			children = (
-				045C126B2CC2530400646CC7 /* hackapet */,
-				045C127C2CC2530600646CC7 /* hackapetTests */,
-				045C12862CC2530600646CC7 /* hackapetUITests */,
+				556BC61E2CC3CB11003D9F25 /* Hackapet */,
+				045C127C2CC2530600646CC7 /* HackapetTests */,
+				045C12862CC2530600646CC7 /* HackapetUITests */,
 				045C126A2CC2530400646CC7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		045C126A2CC2530400646CC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				045C12692CC2530400646CC7 /* hackapet.app */,
-				045C12792CC2530600646CC7 /* hackapetTests.xctest */,
-				045C12832CC2530600646CC7 /* hackapetUITests.xctest */,
+				045C12692CC2530400646CC7 /* Hackapet.app */,
+				045C12792CC2530600646CC7 /* HackapetTests.xctest */,
+				045C12832CC2530600646CC7 /* HackapetUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		045C12682CC2530400646CC7 /* hackapet */ = {
+		045C12682CC2530400646CC7 /* Hackapet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 045C128D2CC2530600646CC7 /* Build configuration list for PBXNativeTarget "hackapet" */;
+			buildConfigurationList = 045C128D2CC2530600646CC7 /* Build configuration list for PBXNativeTarget "Hackapet" */;
 			buildPhases = (
 				045C12652CC2530400646CC7 /* Sources */,
 				045C12662CC2530400646CC7 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				045C126B2CC2530400646CC7 /* hackapet */,
+				556BC61E2CC3CB11003D9F25 /* Hackapet */,
 			);
-			name = hackapet;
+			name = Hackapet;
 			packageProductDependencies = (
 			);
 			productName = hackapet;
-			productReference = 045C12692CC2530400646CC7 /* hackapet.app */;
+			productReference = 045C12692CC2530400646CC7 /* Hackapet.app */;
 			productType = "com.apple.product-type.application";
 		};
-		045C12782CC2530600646CC7 /* hackapetTests */ = {
+		045C12782CC2530600646CC7 /* HackapetTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 045C12902CC2530600646CC7 /* Build configuration list for PBXNativeTarget "hackapetTests" */;
+			buildConfigurationList = 045C12902CC2530600646CC7 /* Build configuration list for PBXNativeTarget "HackapetTests" */;
 			buildPhases = (
 				045C12752CC2530600646CC7 /* Sources */,
 				045C12762CC2530600646CC7 /* Frameworks */,
@@ -131,18 +131,18 @@
 				045C127B2CC2530600646CC7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				045C127C2CC2530600646CC7 /* hackapetTests */,
+				045C127C2CC2530600646CC7 /* HackapetTests */,
 			);
-			name = hackapetTests;
+			name = HackapetTests;
 			packageProductDependencies = (
 			);
 			productName = hackapetTests;
-			productReference = 045C12792CC2530600646CC7 /* hackapetTests.xctest */;
+			productReference = 045C12792CC2530600646CC7 /* HackapetTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		045C12822CC2530600646CC7 /* hackapetUITests */ = {
+		045C12822CC2530600646CC7 /* HackapetUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 045C12932CC2530600646CC7 /* Build configuration list for PBXNativeTarget "hackapetUITests" */;
+			buildConfigurationList = 045C12932CC2530600646CC7 /* Build configuration list for PBXNativeTarget "HackapetUITests" */;
 			buildPhases = (
 				045C127F2CC2530600646CC7 /* Sources */,
 				045C12802CC2530600646CC7 /* Frameworks */,
@@ -154,13 +154,13 @@
 				045C12852CC2530600646CC7 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				045C12862CC2530600646CC7 /* hackapetUITests */,
+				045C12862CC2530600646CC7 /* HackapetUITests */,
 			);
-			name = hackapetUITests;
+			name = HackapetUITests;
 			packageProductDependencies = (
 			);
 			productName = hackapetUITests;
-			productReference = 045C12832CC2530600646CC7 /* hackapetUITests.xctest */;
+			productReference = 045C12832CC2530600646CC7 /* HackapetUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 045C12642CC2530400646CC7 /* Build configuration list for PBXProject "hackapet" */;
+			buildConfigurationList = 045C12642CC2530400646CC7 /* Build configuration list for PBXProject "Hackapet" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				045C12682CC2530400646CC7 /* hackapet */,
-				045C12782CC2530600646CC7 /* hackapetTests */,
-				045C12822CC2530600646CC7 /* hackapetUITests */,
+				045C12682CC2530400646CC7 /* Hackapet */,
+				045C12782CC2530600646CC7 /* HackapetTests */,
+				045C12822CC2530600646CC7 /* HackapetUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		045C127B2CC2530600646CC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 045C12682CC2530400646CC7 /* hackapet */;
+			target = 045C12682CC2530400646CC7 /* Hackapet */;
 			targetProxy = 045C127A2CC2530600646CC7 /* PBXContainerItemProxy */;
 		};
 		045C12852CC2530600646CC7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 045C12682CC2530400646CC7 /* hackapet */;
+			target = 045C12682CC2530400646CC7 /* Hackapet */;
 			targetProxy = 045C12842CC2530600646CC7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -461,7 +461,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackapet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hackapet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hackapet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hackapet";
 			};
 			name = Debug;
 		};
@@ -480,7 +480,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackapet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hackapet";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hackapet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hackapet";
 			};
 			name = Release;
 		};
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		045C12642CC2530400646CC7 /* Build configuration list for PBXProject "hackapet" */ = {
+		045C12642CC2530400646CC7 /* Build configuration list for PBXProject "Hackapet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				045C128B2CC2530600646CC7 /* Debug */,
@@ -530,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		045C128D2CC2530600646CC7 /* Build configuration list for PBXNativeTarget "hackapet" */ = {
+		045C128D2CC2530600646CC7 /* Build configuration list for PBXNativeTarget "Hackapet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				045C128E2CC2530600646CC7 /* Debug */,
@@ -539,7 +539,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		045C12902CC2530600646CC7 /* Build configuration list for PBXNativeTarget "hackapetTests" */ = {
+		045C12902CC2530600646CC7 /* Build configuration list for PBXNativeTarget "HackapetTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				045C12912CC2530600646CC7 /* Debug */,
@@ -548,7 +548,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		045C12932CC2530600646CC7 /* Build configuration list for PBXNativeTarget "hackapetUITests" */ = {
+		045C12932CC2530600646CC7 /* Build configuration list for PBXNativeTarget "HackapetUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				045C12942CC2530600646CC7 /* Debug */,

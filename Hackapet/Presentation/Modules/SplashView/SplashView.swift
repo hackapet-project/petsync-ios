@@ -1,6 +1,6 @@
 //
 //  SplashView.swift
-//  hackapet
+//  Hackapet
 //
 //  Created by Felipe Gadea Llopis on 18/10/24.
 //
