@@ -87,5 +87,9 @@ struct MainTabView: View {
             .padding(.horizontal, 16)
             .padding(.top, 16)
         }
+        .task {
+            let animalsUseCase = DependencyContainer.getAnimalsUseCase()
+            _ = try? await animalsUseCase.execute(1)
+        }
     }
 }
