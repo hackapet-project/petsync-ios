@@ -1,12 +1,12 @@
 //
-//  HomeTabView.swift
+//  MainTabView.swift
 //  Hackapet
 //
 //  Created by FELIPE GADEA LLOPIS on 19/10/24.
 //
 import SwiftUI
 
-struct HomeTabView: View {
+struct MainTabView: View {
     var body: some View {
         VStack {
             ScrollView(.horizontal) {

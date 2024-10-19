@@ -1,17 +1,17 @@
 //
-//  ContentView.swift
+//  HomeTabView.swift
 //  Hackapet
 //
 //  Created by FELIPE GADEA LLOPIS on 19/10/24.
 //
 import SwiftUI
 
-struct ContentView: View {
+struct HomeTabView: View {
     @Binding var pageSelection: Int
     var body: some View {
         VStack(spacing: 0) {
             TabView(selection: $pageSelection) {
-                HomeTabView()
+                MainTabView()
                 .tag(0)
                 VStack {
                     Circle()
